@@ -3,6 +3,10 @@
 A Python package providing atomic tools for langchain-based AI agents to manipulate Jupyter notebooks. Built on
 nbclient/nbformat, it enables programmatic notebook creation, loading, and manipulation.
 
+## Installation
+
+You can install from this repo in development mode with `pip install -e ./src/`
+
 ## Core Functionality
 
 The system maintains notebook sessions using tokens. Each operation requires a valid token obtained from either:
