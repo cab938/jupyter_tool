@@ -26,8 +26,9 @@ jobs:
           python-version: "3.x"
       - name: Build release distributions
         run: |
+          cd src
           python -m pip install build
-          python -m build src/
+          python -m build
       - name: Upload distributions
         uses: actions/upload-artifact@v4
         with:
