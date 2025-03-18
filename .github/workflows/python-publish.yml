@@ -27,7 +27,9 @@ jobs:
       - name: Build release distributions
         run: |
           cd src
+          python -m pip install --upgrade pip
           python -m pip install build
+          python -m pip install -r requirements.txt
           python -m build
       - name: Upload distributions
         uses: actions/upload-artifact@v4
