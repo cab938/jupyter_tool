@@ -29,11 +29,11 @@ With a valid token, the following operations are supported:
 
 The system provides specific error types for common failure cases:
 
-- InvalidTokenError
-- CellNotFoundError
-- CellTypeError
-- NotebookLoadError
-- KernelError
+- `InvalidTokenError`
+- `CellNotFoundError`
+- `CellTypeError`
+- `NotebookLoadError`
+- `KernelError`
 
 ## Worked Example
 
